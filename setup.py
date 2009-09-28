@@ -14,12 +14,11 @@ setup(
         },
     
     install_requires = ['setuptools',
-                        'Django',
                         'flup',
                         ],
 
     include_package_data = True,
-    zip_safe = True,
+    zip_safe = False,
 
     author = 'Nathan R. Yergler',
     author_email = 'nathan@creativecommons.org',
