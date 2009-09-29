@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# start OOo with the correct parameters for talking to coment.
+soffice -headless "-accept=socket,port=2002;urp;"
